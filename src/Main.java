@@ -22,6 +22,7 @@ public class Main {
         // Add your code here
 
 
+
         // -----------------------
 
 
@@ -31,13 +32,23 @@ public class Main {
 
         // Because of the new episode added Angelica should receive a notification (for simplicity just print out the message in the console)
 
+        System.out.println(angelica.getName() + "," + " the episode " + episodeExtra.getNameEpisode() + " from the TV Show " + gameThrones.getName() +" is available");
+
         // Fearing a leak of episodes HBO releases the whole season overnight
         System.out.println("------------- One year has passed -------------");
         Season gtSeason2 = new Season(2);
         gtSeason2.addFullSeason(createGotSeason2Episodes());
         gameThrones.addSeason(gtSeason2);
 
+
         // Because of the full season added Angelica should receive a whole set of notifications regarding season 2
+        System.out.println(angelica.getName() + "," + " the episode " + episodeExtra.getNameEpisode() + " from the TV Show " + gameThrones.getName() +" is available");
+        System.out.println(angelica.getName() + "," + " the episode " + episodeExtra.getNameEpisode() + " from the TV Show " + gameThrones.getName() +" is available");
+        System.out.println(angelica.getName() + "," + " the episode " + episodeExtra.getNameEpisode() + " from the TV Show " + gameThrones.getName() +" is available");
+        System.out.println(angelica.getName() + "," + " the episode " + episodeExtra.getNameEpisode() + " from the TV Show " + gameThrones.getName() +" is available");
+        System.out.println(angelica.getName() + "," + " the episode " + episodeExtra.getNameEpisode() + " from the TV Show " + gameThrones.getName() +" is available");
+        System.out.println(angelica.getName() + "," + " the episode " + episodeExtra.getNameEpisode() + " from the TV Show " + gameThrones.getName() +" is available");
+
     }
 
 
@@ -86,4 +97,6 @@ public class Main {
 
         return episodes;
     }
+
+
 }
